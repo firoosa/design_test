@@ -322,6 +322,12 @@ body {
 /* ====================== Responsive Styles ====================== */
 
 /* Tablets (768px and below) */
+
+@media (max-width: 1000px) {
+  .body-section{
+    gap: 150px;
+  }
+}
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -348,6 +354,9 @@ body {
     flex-direction: column;
     gap: 40px;
     padding: 30px 20px;
+  }
+  .experience-box {
+
   }
 
   .left {
@@ -406,7 +415,7 @@ body {
     display: none;
   }
   .body-section{
-    overflow: auto
+    overflow: hidden
   }
   nav ul {
     display: none;
@@ -434,13 +443,8 @@ body {
     padding: 10px;
     border-bottom: 1px solid #eee;
   }
-  .body-section{
+  /* .body-section{
     gap: 50px;
-  }
+  } */
 }
 
-@media (max-width: 1000px) {
-  .body-section{
-    gap: 150px;
-  }
-}
